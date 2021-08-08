@@ -30,6 +30,7 @@ public class TestNGPractice1 {
 	@Test(priority=2,groups="Personal Info")
 	public void keyInFirstName() {
 	driver.findElement(By.xpath("(//input[@class='form-control'])[1]")).sendKeys("Ramesh");
+	System.out.println("fdfee");
 	}
 	@Test(priority=3,groups="Personal Info")
 	public void keyInLastName() {
