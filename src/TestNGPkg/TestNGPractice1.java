@@ -24,6 +24,7 @@ public class TestNGPractice1 {
 	@Test(priority=1, groups="URL")
 	public void openURL() {
     driver.get("http://tutorialsninja.com/demo/index.php?route=account/register");
+    System.out.println("fdf");
 	}	
 	
 	@Test(priority=2,groups="Personal Info")
