@@ -60,6 +60,7 @@ public class TestNGPractice2 {
 	@Test(priority=8,dependsOnMethods= {"keyInConfirmPwd"})
 	public void policy() {
 	driver.findElement(By.xpath("//input[@name='agree']")).click();
+	System.out.println("git prac 2");
 	}	
 	
 	@Test(priority=9,dependsOnMethods= {"policy"})
